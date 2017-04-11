@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Android MVC</string>
+    <string name="app_email">qascript@mail.ru</string>
+    <string name="app_site">http://notes.ifsoft.co.uk</string>
+
+    <string name="facebook_app_id">724683010974</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="action_login">Log in</string>
+    <string name="action_signup">Sign up</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_about">About</string>
+    <string name="action_ok">OK</string>
+    <string name="action_save">Save</string>
+    <string name="action_edit">Edit</string>
+	<string name="action_delete">Delete</string>
+	<string name="action_new">New</string>
+    <string name="action_new_order">New order</string>
+	<string name="action_new_order_product">Add</string>
+	<string name="action_new_shop">Save</string>
+    <string name="action_new_shop">Save</string>
+	
+	
+    <string name="action_login_with_facebook">Log in with Facebook</string>
+    <string name="action_signup_with_facebook">Sign up with Facebook</string>
+    <string name="action_connect_with_facebook">Connect with Facebook</string>
+    <string name="action_remove_connection">Remove connection</string>
+    <string name="action_regular_signup">Back to the regular registration form</string>
+    <string name="action_forgot_password">Forgot password?</string>
+
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_login">Username</string>
+    <string name="placeholder_fullname">Fullname</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_current_password">Current password</string>
+    <string name="placeholder_new_password">New password</string>
+
+    <string name="placeholder_note_title">Title</string>
+    <string name="placeholder_note_text">Text note</string>
+    
+    <string name="placeholder_address">Address</string>
+    <string name="placeholder_mobile">Mobile</string>
+    <string name="placeholder_quantity">Quantity</string>
+    <string name="placeholder_price">Price</string>
+    <string name="placeholder_is_default">Default</string>
+    <string name="placeholder_input_customer_name">Input customer name</string>
+	<string name="placeholder_input_product_name">Input product name</string>
+    
+    <string name="msg_loading">Please wait...</string>
+    <string name="msg_network_error">Please check your Internet connection</string>
+    <string name="msg_account_blocked">This account is blocked by a moderator.</string>
+    <string name="msg_enter_note">Note should have a title and text.</string>
+    <string name="msg_note_saved">Note has been saved successfully.</string>
+    <string name="msg_password_changed">Password successfully changed</string>
+    <string name="msg_password_reset_link_sent">A message with link to reset your password has been sent to your email.</string>
+    <string name="msg_no_such_user_in_bd">No such user in database</string>
+    <string name="msg_connect_to_facebook_success">You have successfully linked application with your account on Facebook!</string>
+    <string name="msg_connect_to_facebook_error">Your account on Facebook is already associated with another account.</string>
+    <string name="msg_connect_to_facebook_removed">Connect with your Facebook account removed.</string>
+	<string name="msg_please_create_a_shop">Please create a shop.</string>
+    
+    <string name="error_signin">Incorrect username or password</string>
+    <string name="error_internet_connection">No internet connection</string>
+    <string name="error_data_loading">When loading data error has occurred. Check your network connection.</string>
+    <string name="error_field_empty">Required fields are empty</string>
+    <string name="error_wrong_format">Wrong format</string>
+    <string name="error_small_password">Minimum 6 characters</string>
+    <string name="error_small_username">Minimum 5 characters</string>
+    <string name="error_login_taken">Username is already taken</string>
+    <string name="error_email_taken">User with this mail is already registered</string>
+    <string name="error_password">Invalid password.</string>
+    <string name="error_email">Email invalid.</string>
+
+    <string name="label_authorization_via_facebook">Authorization via Facebook.</string>
+    <string name="label_account_connected_to_facebook">Connected with Facebook</string>
+    <string name="label_account_connect_to_facebook">Connect this account with your social network accounts</string>
+    <string name="label_empty_list">List is empty. Click to create one.</string>
+
+    <string name="signup_label_1">By clicking Sign up, you agree to our</string>
+    <string name="signup_label_terms_and_policies">Terms and Policies</string>
+
+    <string name="settings_header_general">General</string>
+    <string name="settings_header_others">Others</string>
+    <string name="settings_header_about">About</string>
+
+    <string name="settings_version">Version</string>
+    <string name="settings_logout">Log out</string>
+    <string name="settings_copyright_info">Copyright info</string>
+    <string name="settings_contact_us">Contact us</string>
+    <string name="settings_web_site">Our website</string>
+    <string name="settings_deactivate_account">Deactivate account</string>
+    <string name="settings_edit_account">Signature for your secrets</string>
+    <string name="settings_thanks">Acknowledgements</string>
+    <string name="settings_terms">Terms of use</string>
+    <string name="settings_change_password">Change password</string>
+    <string name="settings_services">Services</string>
+    <string name="settings_services_summary">Connect with social network accounts</string>
+    <string name="settings_account_deactivation">If you proceed deactivate your account, you can never go back. If you want to come back - you\'ll have to create a new account.</string>
+
+    <string name="settings_file">account</string>
+    <string name="settings_account_id">account_id</string>
+    <string name="settings_account_username">account_username</string>
+    <string name="settings_account_access_token">access_token</string>
+    
+    <string name="settings_account_hash">account_hash</string>
+
+    <string name="drawer_all_items">View all notes</string>
+    <string name="drawer_new_item">Create new note</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_shops">Manage shop</string>
+    <string name="drawer_customers">Manage customers</string>
+    <string name="drawer_products">Manage products</string>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_refresh</item>
+        <item>@drawable/ic_action_shops</item>
+        <item>@drawable/ic_action_customers</item>
+        <item>@drawable/ic_action_settings</item>
+    </array>
+
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_main">Notes Pro</string>
+    <string name="title_activity_recovery">Password recovery</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_web_view">Web View</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_services">Services</string>
+    <string name="title_activity_new_item">New Note</string>
+    <string name="title_activity_view_item">Detail</string>
+    <!-- REBOL add -->
+    <string name="title_activity_list_orders">Orders</string>
+    <string name="title_activity_list_shops">Shops</string>
+    <string name="title_activity_list_products">Products</string>
+    <string name="title_activity_list_customers">Customers</string>
+    <string name="title_activity_view_item_order">Order</string>
+    <string name="title_activity_view_item_shop">Shop</string>
+    <string name="title_activity_view_item_product">Product</string>
+    <string name="title_activity_view_item_customer">Customer</string>
+    <string name="title_activity_new_item_order">Order</string>
+    <string name="title_activity_new_item_shop">Shop</string>
+    <string name="title_activity_new_item_product">Product</string>
+    <string name="title_activity_new_item_customer">Customer</string>
+    <!--  -->
+    <string name="popup_ok">OK</string>
+    <string name="popup_retry">Retry</string>
+    <string name="popup_cancel">Cancel</string>
+    <string name="popup_error_network">Network Error</string>
+
+    
+    
+    
+    
+    
+    
+    
+</resources>

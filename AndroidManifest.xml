@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.mvc" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="uk.co.ifsoft.notes.permission.C2D_MESSAGE" />
+
+    <permission
+        android:name=".permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+		<uses-sdk android:minSdkVersion="19" android:maxSdkVersion="23" android:targetSdkVersion="23"/>
+		<!-- android:name=".controller.ScreenCtrlManager" -->
+	<application
+        
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+		<activity
+		    android:name="com.android.mvc.view.FakeLauncherActivity">
+		    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+		</activity>
+        <activity
+            android:name="com.android.mvc.view.AppActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity   
+        	android:name="com.android.mvc.view.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.mvc.view.RegisterActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_signup"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

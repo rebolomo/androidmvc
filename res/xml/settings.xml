@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:key="header_general"
+        android:title="@string/settings_header_general">
+
+        <Preference
+            android:key="settings_change_password"
+            android:title="@string/settings_change_password"
+            android:enabled="true"
+            android:summary="" />
+
+        <Preference
+            android:key="settings_services"
+            android:title="@string/settings_services"
+
+            android:summary="@string/settings_services_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="header_about"
+        android:title="@string/settings_header_about">
+
+        <Preference
+            android:key="settings_terms"
+            android:title="@string/settings_terms"
+
+            android:summary="" />
+
+        <Preference
+            android:key="settings_thanks"
+            android:title="@string/settings_thanks"
+
+            android:summary="" />
+
+        <Preference
+            android:key="settings_version"
+            android:title="@string/settings_version"
+
+            android:summary="" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="header_others"
+        android:title="@string/settings_header_others">
+
+        <Preference
+            android:key="settings_logout"
+            android:title="@string/settings_logout"
+            android:enabled="true"
+            android:summary="" />
+
+        <Preference
+            android:key="settings_copyright_info"
+            android:title="@string/settings_copyright_info"
+
+            android:summary="" />
+
+        <Preference
+            android:key="settings_contact_us"
+            android:title="@string/settings_contact_us"
+
+            android:summary="@string/app_email" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
